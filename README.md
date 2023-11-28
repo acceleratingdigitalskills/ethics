@@ -16,8 +16,8 @@ To learn more about how this lesson site is built and how you can edit the pages
 ## Maintainer(s)
 Current Maintainers of this lesson are:
 
-* [Eamonn Bell](eamonn.bell@durham.ac.uk) (Lead Maintainer)
-* @stimhub
+* [stimhub](https://github.com/stimhub)
+* [Eamonn Bell](eamonn.bell@durham.ac.uk)
 
 ## Contact
 Please get in touch with [Eamonn Bell](eamonn.bell@durham.ac.uk) with any questions about this lesson.
