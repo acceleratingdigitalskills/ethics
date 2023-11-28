@@ -1,69 +1,25 @@
-# The Carpentries Workbench Template Markdown Lesson
+# Introduction to the Ethical and Methodological Essentials for Music Researchers Curriculum
 
-This lesson is a template lesson that uses [The Carpentries Workbench][workbench].
+Curriculum for a short (six half days) workshop teaching best practice in web data ethics for music researchers. The lesson is visible at: https://acceleratingdigitalskills.github.io/ethics/.
 
-## Create a new repository from this template
+If you are interested in helping us develop this material, teaching the curriculum, or attending a workshop, please [contact Eamonn Bell](mailto:eamonn.bell@durham.ac.uk).
 
-To use this template to start a new lesson repository, 
-make sure you're logged into Github.   
-Visit https://github.com/carpentries/workbench-template-md/generate
-and follow the instructions.
-Checking the 'Include all branches' option will save some time waiting for the first website build
-when your new repository is initialised.
+## Contributing
+Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for contributing guidelines and details on how to get involved with this project.
 
-If you have any questions, contact [@zkamvar](https://github.com/zkamvar)
+Also see the current list of [issues](https://github.com/acceleratingdigitalskills/cli-and-web-for-music/issues)
+for ideas for contributing to this training curriculum. Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg).
+This indicates that the issue does not require in-depth knowledge of the project and lesson infrastructure, and is a good opportunity for a new contributor to get involved.
 
-## Configure a new lesson
+To learn more about how this lesson site is built and how you can edit the pages, see [the Introduction to The Carpentries Workbench][sandpaper-docs].
 
-Follow the steps below to
-complete the initial configuration of a new lesson repository built from this template:
+## Maintainer(s)
+Current Maintainers of this lesson are:
 
-1. **Make sure GitHub Pages is activated:**
-   navigate to _Settings_,
-   select _Pages_ from the left sidebar,
-   and make sure that `gh-pages` is selected as the branch to build from.
-   If no `gh-pages` branch is available, check _Actions_ to see if the first
-   website build workflows are still running.
-   The branch should become available when those have completed.
-1. **Adjust the `config.yaml` file:**
-   this file contains global parameters for your lesson site.
-   Individual fields within the file are documented with comments (beginning with `#`)
-   At minimum, you should adjust all the fields marked 'FIXME':
-   - `title`
-   - `created`
-   - `keywords`
-   - `life_cycle` (the default, _pre-alpha_, is the appropriate for brand new lessons)
-   - `contact`
-1. **Annotate the repository** with site URL and topic tags:
-   navigate back to the repository landing page and
-   click on the gear wheel/cog icon (similar to ⚙️) 
-   at the top-right of the _About_ box.
-   Check the "Use your GitHub Pages website" option,
-   and [add some keywords and other annotations to describe your lesson](https://cdh.carpentries.org/the-carpentries-incubator.html#topic-tags)
-   in the _Topics_ field.
-   At minimum, these should include:
-   - `lesson`
-   - the life cycle of the lesson (e.g. `pre-alpha`)
-   - the human language the lesson is written in (e.g. `deutsch`)
-1. **Adjust the 
-   `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, and `LICENSE.md` files**
-   as appropriate for your project.
-   -  `CODE_OF_CONDUCT.md`: 
-      if you are using this template for a project outside The Carpentries,
-      you should adjust this file to describe 
-      who should be contacted with Code of Conduct reports,
-      and how those reports will be handled.
-   -  `CONTRIBUTING.md`:
-      depending on the current state and maturity of your project,
-      the contents of the template Contributing Guide may not be appropriate.
-      You should adjust the file to help guide contributors on how best
-      to get involved and make an impact on your lesson.
-   -  `LICENSE.md`:
-      in line with the terms of the CC-BY license,
-      you should ensure that the copyright information 
-      provided in the license file is accurate for your project.
-1. **Update this README with 
-   [relevant information about your lesson](https://carpentries.github.io/lesson-development-training/collaborating-newcomers.html#readme)**
-   and delete this section.
+* [Eamonn Bell](eamonn.bell@durham.ac.uk) (Lead Maintainer)
+* @stimhub
 
-[workbench]: https://carpentries.github.io/sandpaper-docs/
+## Contact
+Please get in touch with [Eamonn Bell](eamonn.bell@durham.ac.uk) with any questions about this lesson.
+
+[sandpaper-docs]: https://carpentries.github.io/sandpaper-docs/
