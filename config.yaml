@@ -60,7 +60,7 @@ contact: 'eamonn.bell@durham.ac.uk'
 # Order of episodes in your lesson
 episodes: 
 - introduction.md
-– overview.md
+- overview.md
 
 # Information for Learners
 learners: 
