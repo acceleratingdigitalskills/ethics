@@ -1000,7 +1000,7 @@ reinforce the objectives.</li>
   <h3 class="accordion-header" id="headingInstructor1">
 <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>Instructor Note</h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Inline instructor notes can help inform instructors of timing
 challenges associated with the lessons. They appear in the “Instructor
@@ -1027,7 +1027,7 @@ data in music research.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Some potential benefits: * Access to a wide range of people’s
 responses to music * Quickly gain research data * Minimal cost to data
@@ -1068,7 +1068,7 @@ challenge blocks?<a class="anchor" aria-label="anchor" href="#challenge-2-how-do
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>You can add a line with at least three colons and a
 <code>solution</code> tag.</p>
@@ -1196,7 +1196,7 @@ reinforce the objectives.</li>
   <h3 class="accordion-header" id="headingInstructor1">
 <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>Instructor Note</h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Inline instructor notes can help inform instructors of timing
 challenges associated with the lessons. They appear in the “Instructor
@@ -1223,7 +1223,7 @@ data in music research.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Some potential benefits: * Access to a wide range of people’s
 responses to music * Quickly gain research data * Minimal cost to data
@@ -1264,7 +1264,7 @@ challenge blocks?<a class="anchor" aria-label="anchor" href="#challenge-2-how-do
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>You can add a line with at least three colons and a
 <code>solution</code> tag.</p>
@@ -1540,8 +1540,8 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>How much data should we collect and keep for research projects?</li>
+<li>How can we store data carefully?</li>
 </ul>
 </div>
 </div>
@@ -1551,9 +1551,10 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
+<li>Reflect on benefits and drawbacks of data collection</li>
+<li>Consider principles of data minimisation and secure data
+storage</li>
+<li>Introduce FAIR principles</li>
 </ul>
 </div>
 </div>
@@ -1563,25 +1564,24 @@ challenge blocks</li>
 <section id="introduction"><h2 class="section-heading">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.txt" class="external-link">Pandoc-flavored Markdown</a>
-for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> for dynamic files that can render code into output. Please
-refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
-</ol>
+<p>When academics first consider using web data as part of their
+research, they may not consider what they want the data for, or how they
+will store it. In our current data-rich era, it is all too easy to
+collect a lot of data without a specific plan for keeping it securely.
+We might end up with more information than we need or risk losing data
+due to a lack of planning.</p>
+<div id="data-rush" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="data-rush" class="callout-inner">
+<h3 class="callout-title">Data-rush!<a class="anchor" aria-label="anchor" href="#data-rush"></a>
+</h3>
+<div class="callout-content">
+<p>Koen Leurs<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> identifies a ‘data-rush mentality’ which
+can be witnessed in the arts and humanities. Can you think of any
+research initiatives which rushed ahead to collect data without careful
+consideration?</p>
 <div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
@@ -1590,13 +1590,47 @@ reinforce the objectives.</li>
 </button>
 <div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
-<p>Inline instructor notes can help inform instructors of timing
-challenges associated with the lessons. They appear in the “Instructor
-View”</p>
+<ul>
+<li>It may be helpful to provide the learners with a specific example
+from your own research background. This could be drawn from your work, a
+colleague’s work, or a publication, where you felt data could have been
+collected with more forethought. Offer this anecdote to help the
+learners reflect on the trend Leurs identifies.</li>
+</ul>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+<p>For music researchers getting started with collecting web data about
+music, it is natural to be somewhat exploratory. However, we have
+already identified some potential harms of storing excess data –
+potential holding on to protected information about other people.</p>
+<p>To avoid this issue, it may be better to limit the amount of web data
+researchers collect.</p>
+</section><section id="data-minimisation"><h2 class="section-heading">Data Minimisation<a class="anchor" aria-label="anchor" href="#data-minimisation"></a>
+</h2>
+<hr class="half-width">
+<p>The idea of collecting only the data you need to complete your
+research is the main principle of <strong>data minimisation</strong>.
+This term has been used in both legal frameworks and research
+guidelines.</p>
+<p>It is an important part of approaching a research project using web
+data about music more responsibly. To help <em>minimise</em> the data
+you have means asking questions like:</p>
+<div class="section level3">
+<h3 id="do-i-need-to-collect-this-type-of-data">- Do I need to collect this type of data?<a class="anchor" aria-label="anchor" href="#do-i-need-to-collect-this-type-of-data"></a>
+</h3>
+<p>If you are not planning to analyse date information as part of a
+research project, you do not strictly need to collect dates (e.g., the
+date a music video was uploaded).</p>
+<p>If you are working on a deidentified corpus of text like user
+comments, you may not need to collect commenter usernames. This would
+help you <a href="protecting-users.html">protect users</a>.</p>
+<p>This is an especially important consideration for research on music,
+as so much data shared by users is distinctly ideological.</p>
 <div id="exercise-music-research-using-web-data" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
@@ -1664,18 +1698,19 @@ challenge blocks?<a class="anchor" aria-label="anchor" href="#challenge-2-how-do
 </div>
 </div>
 </div>
+</div>
 </section><section id="figures"><h2 class="section-heading">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
 </h2>
 <hr class="half-width">
 <p>You can use standard markdown for static figures with the following
 syntax:</p>
 <p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><figcaption>You belong in The Carpentries!</figcaption></figure><div id="callout1" class="callout callout">
+<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><figcaption>You belong in The Carpentries!</figcaption></figure><div id="callout2" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
 </h3>
 <div class="callout-content">
 <p>Callout sections can highlight information.</p>
@@ -1703,14 +1738,15 @@ this:</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>The principle of data minimisation encourages you to collect and
+store <em>less</em> data</li>
+<li>The dynamic nature of internet data suggests it might be better to
+collect and store <em>more</em> data</li>
+<li>Designing research projects should involve careful consideration of
+what kind of data to collect, how much data to collect, how to store it,
+and how long to store it</li>
+<li>FAIR principles of data management are embedded in university
+research contexts and should also be considered</li>
 </ul>
 </div>
 </div>
@@ -1719,7 +1755,14 @@ locally</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</section></section><section id="aio-access"><p>Content from <a href="access.html">Doing Better with Data 1: Access</a></p>
+</section><div class="footnotes footnotes-end-of-document">
+<hr>
+<ol>
+<li id="fn1"><p>Leurs, Koen. ‘Feminist Data Studies: Using Digital
+Methods for Ethical, Reflexive and Situated Socio-Cultural Research’.
+Feminist Review 115, no. 1 (1 March 2017): 130–54. <a href="https://doi.org/10.1057/s41305-017-0043-1" class="external-link uri">https://doi.org/10.1057/s41305-017-0043-1</a>.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div></section><section id="aio-access"><p>Content from <a href="access.html">Doing Better with Data 1: Access</a></p>
 <hr>
 <p>Last updated on 2024-02-19 |
         
@@ -1980,7 +2023,7 @@ reinforce the objectives.</li>
   <h3 class="accordion-header" id="headingInstructor1">
 <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>Instructor Note</h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Inline instructor notes can help inform instructors of timing
 challenges associated with the lessons. They appear in the “Instructor
@@ -2007,7 +2050,7 @@ data in music research.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Some potential benefits: * Access to a wide range of people’s
 responses to music * Quickly gain research data * Minimal cost to data
@@ -2048,7 +2091,7 @@ challenge blocks?<a class="anchor" aria-label="anchor" href="#challenge-2-how-do
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>You can add a line with at least three colons and a
 <code>solution</code> tag.</p>
