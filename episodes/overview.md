@@ -1,7 +1,7 @@
 ---
 title: "Overview of Music Research using Web Data"
-teaching: 10
-exercises: 2
+teaching: 22
+exercises: 8
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
