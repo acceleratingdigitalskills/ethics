@@ -6,41 +6,62 @@ exercises: 8
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- How much data should we collect and keep for research projects?
+- How can we store data carefully?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Reflect on benefits and drawbacks of data collection
+- Consider principles of data minimisation and secure data storage
+- Introduce FAIR principles
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+When academics first consider using web data as part of their research, they may not consider what they want the data for, or how they will store it. In our current data-rich era, it is all too easy to collect a lot of data without a specific plan for keeping it securely. We might end up with more information than we need or risk losing data due to a lack of planning.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+::::::::::::::::: callout
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+### Data-rush!
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+Koen Leurs^[Leurs, Koen. ‘Feminist Data Studies: Using Digital Methods for Ethical, Reflexive and Situated Socio-Cultural Research’. Feminist Review 115, no. 1 (1 March 2017): 130–54. https://doi.org/10.1057/s41305-017-0043-1.] identifies a 'data-rush mentality' which can be witnessed in the arts and humanities. Can you think of any research initiatives which rushed ahead to collect data without careful consideration?
 
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
+::::::::::::::::::::::::::::::::::::: instructor
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+- It may be helpful to provide the learners with a specific example from your own research background. This could be drawn from your work, a colleague's work, or a publication, where you felt data could have been collected with more forethought. Offer this anecdote to help the learners reflect on the trend Leurs identifies.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::
+
+
+For music researchers getting started with collecting web data about music, it is natural to be somewhat exploratory. However, we have already identified some potential harms of storing excess data -- potential holding on to protected information about other people.
+
+To avoid this issue, it may be better to limit the amount of web data researchers collect.
+
+## Data Minimisation
+
+The idea of collecting only the data you need to complete your research is the main principle of **data minimisation**. This term has been used in both legal frameworks and research guidelines.
+
+It is an important part of approaching a research project using web data about music more responsibly. To help *minimise* the data you have means asking questions like:
+
+### - Do I need to collect this type of data?
+
+If you are not planning to analyse date information as part of a research project, you do not strictly need to collect dates (e.g., the date a music video was uploaded).
+
+If you are working on a deidentified corpus of text like user comments, you may not need to collect commenter usernames. This would help you [protect users](protecting-users.md).
+
+
+
+This is an especially important consideration for research on music, as so much data shared by users is distinctly ideological. 
+
+
+
+
+
 
 ::: challenge 
 
@@ -116,10 +137,10 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- The principle of data minimisation encourages you to collect and store *less* data
+- The dynamic nature of internet data suggests it might be better to collect and store *more* data
+- Designing research projects should involve careful consideration of what kind of data to collect, how much data to collect, how to store it, and how long to store it
+- FAIR principles of data management are embedded in university research contexts and should also be considered
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
