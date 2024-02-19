@@ -11,7 +11,7 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: 'Ethical and Methodological Essentials for Music Researchers Using Web Data' # FIXME
+title: 'Ethical and Methodological Essentials for Music Researchers Using Web Data'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: 2023-11-28
@@ -33,7 +33,7 @@ source: 'https://github.com/acceleratingdigitalskills/ethics'
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'eamonn.bell@durham.ac.uk' 
+contact: 'eamonn.bell@durham.ac.uk'
 
 # Navigation ------------------------------------------------
 #
@@ -58,17 +58,26 @@ contact: 'eamonn.bell@durham.ac.uk'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduction.md
+- overview.md
+- law.md
+- protecting-users.md
+- protecting-you.md
+- inclusion.md
+- storage.md
+- access.md
+- reflexivity.md
+- design.md
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #

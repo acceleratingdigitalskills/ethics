@@ -1,7 +1,7 @@
 ---
-title: "Workshop Introduction"
-teaching: 20
-exercises: 5
+title: "Inclusion and Representation"
+teaching: 15
+exercises: 10
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -42,17 +42,29 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::: challenge 
+::: challenge 
 
-## Challenge 1: Can you do it?
+## Exercise: Music Research Using Web Data
 
-What is the output of this command?
+Write one possible benefit and one potential drawback of using web data in music research.
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+::: solution 
 
-:::::::::::::::::::::::: solution 
+Some potential benefits: 
+* Access to a wide range of people's responses to music
+* Quickly gain research data
+* Minimal cost to data collection
+* Increase statistical power of findings
+* May discover patterns in big data that could not be seen otherwise
+
+Some potential drawbacks:
+* Not representative dataset
+* May not be aware who exactly we are studying
+* Ethical issues around informed consent
+* Risk of losing context for data
+* May be difficult to interpret large data sets
+
+
 
 ## Output
  
