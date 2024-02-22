@@ -138,6 +138,8 @@ Here are some suggested issues with each storage system. These are offered to pr
 
 :::::::::::::::::::::::::::::::::::::::::::::::
 
+There is a widely cited rule-of-thumb for backing up data called the **3-2-1 rule**. This means keeping **3** copies of your data in total, in at least **2** different types of media (e.g., both cloud storage and a USB stick), with **1** copy stored off-site (e.g. not at your usual workplace).
+
 ## FAIR Principles
 
 This lesson has covered data collection and storage, but it is also important to consider data sharing. This aspect of data management is addressed by a widely-used research framework, FAIR. This stands for:
