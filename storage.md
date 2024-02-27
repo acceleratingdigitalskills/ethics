@@ -144,10 +144,10 @@ There is a widely cited rule-of-thumb for backing up data called the **3-2-1 rul
 
 This lesson has covered data collection and storage, but it is also important to consider data sharing. This aspect of data management is addressed by a widely-used research framework, FAIR. This stands for:
 
-*Findable
-*Accessible
-*Interoperable
-*Reusable
+* Findable
+* Accessible
+* Interoperable
+* Reusable
 
 FAIR is a set of principles developed by data science academics, publishers, technologists, and funding bodies. As such, it is now embedded in most university data management plans and may be a condition of research grants. 
 
