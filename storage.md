@@ -25,7 +25,7 @@ When academics first consider using web data as part of their research, they may
 
 ::::::::::::::::: discussion
 
-### Data-rush!
+### Discussion: Data-rush!
 
 Koen Leurs^[Leurs, Koen. ‘Feminist Data Studies: Using Digital Methods for Ethical, Reflexive and Situated Socio-Cultural Research’. Feminist Review 115, no. 1 (1 March 2017): 130–54. https://doi.org/10.1057/s41305-017-0043-1, 134.] identifies a 'data-rush mentality' which can be witnessed in the arts and humanities. Can you think of any research initiatives which rushed ahead to collect data without careful consideration?
 
@@ -110,7 +110,7 @@ There are specific steps researchers can take to mitigate data loss. We'll consi
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
-## Data Storage Systems
+## Exercise: Data Storage Systems
 
 Imagine you have a set of web data about music stored in one of the following ways. In small groups, spend a few minutes discussing potential problems with keeping data this way. How might the data be lost, compromised, or otherwise insecure?
 
