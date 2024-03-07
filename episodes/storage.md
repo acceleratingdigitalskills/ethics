@@ -186,7 +186,7 @@ R1.3. (meta)data meet domain-relevant community standards^[Wilkinson, Mark D., M
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-There is increasing pressure on researchers to share collected data, make them widely available online, and improve access to datasets.
+There is increasing pressure on researchers to share collected data, make them widely available online, and improve access to datasets. Recent positive examples of this trend in music scholarship can be seen in a recent special isse of _Empirical Musciology Review_ on Open Science in Musicology.^[https://doi.org/10.18061/emr.v16i1] 
 
 We're going to examine open access further in the [next lesson](access.md), but for now it is helpful to briefly reflect on the idea of sharing data.
 
@@ -194,7 +194,7 @@ The call to make research data openly accessible is partly a response to the rep
 
 The downsides include risks of violating user privacy, user reidentification, misleading others through publishing outdated or inaccurate data, and potential backlash against the researcher.
 
-A popular convention is to store any information which might be personal or protected, e.g. user data, in a **closed** dataset and only sharing deidentified, cleaned data in an **open** dataset.^[franzke, aline shakti, Anja Bechmann, Michael Zimmer, and Charles M. Ess. ‘Internet Research: Ethical Guidelines 3.0’. Association of Internet Researchers, 2020. https://aoir.org/reports/ethics3.pdf, 10]
+A popular convention is to store any information which might be personal or protected, e.g. user data, in a **closed** dataset and only sharing deidentified, cleaned data in an **open** dataset.^[franzke, aline shakti, Anja Bechmann, Michael Zimmer, and Charles M. Ess. ‘Internet Research: Ethical Guidelines 3.0’. Association of Internet Researchers, 2020. https://aoir.org/reports/ethics3.pdf, 10] 
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
