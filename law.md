@@ -6,14 +6,17 @@ exercises: 10
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- What legal considerations are relevant to music researchers using web data?
+- What are social media platforms' standards for collecting and processing user data?
+- How does the law relate to the ethics of social media data mining?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Consider legal dimensions of internet research, with an emphasis on social music data about music
+- Examine social media platforms' terms of service
+- Address principles of informed consent and protected information
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -116,10 +119,9 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- Data mining is not an ethically neutral process
+- Social media platforms collect and process a significant amount of user data, potentially including information with legal protections
+- Researchers should carefully consider their research methods with regard to the law and platform policies
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
