@@ -6,14 +6,17 @@ exercises: 5
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- What topics in this workshop most appeal to you?
+- What goals do you have in attending this workshop?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Participants and instructors get to know each other
+- Learn to use Etherpad to accompany this lesson
+- Agree Carpentries Code of Conduct
+- Reflect on what you want to get out of this workshop 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -104,10 +107,9 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- By following the Code of Conduct you will help create a welcoming and supportive environment for all people
+- You can use the Etherpad document alongside the lesson website to complete written exercises
+- This training will help you think critically about ethics and methods when using web data about music
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
