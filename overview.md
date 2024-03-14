@@ -14,7 +14,7 @@ exercises: 8
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - Examine the methods and ethics of different approaches to web data in music studies
-- Consider concepts of techno-optimism and interdisciplinarity in research on music and the internet
+- Reflect on how concept of techno-optimism and field of critical data studies inform music research using internet data
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -119,7 +119,7 @@ Cool, right?
 
 - There is a lot of published research using web data about music with a variety of established methods
 - Music and internet scholarship is interdisciplinary and can take many different forms, with a range of potential benefits and challenges
-- Researchers should be wary of the context of techno-optimism in designing research
+- Researchers should be wary of the context of techno-optimism and consider work in critical data studies
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
