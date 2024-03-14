@@ -1,8 +1,12 @@
 # Introduction to the Ethical and Methodological Essentials for Music Researchers Curriculum
 
-Curriculum for a short (six half days) workshop teaching best practice in web data ethics for music researchers. The lesson is visible at: https://acceleratingdigitalskills.github.io/ethics/.
+Curriculum for a workshop teaching best practice and providing resources concerning web data ethics for music researchers. The lesson is visible at: https://acceleratingdigitalskills.github.io/ethics/.
+
+The cirruculum consists of ten episodes of around 25 minutes each which, with recommended breaks, should take about eight hours.
 
 If you are interested in helping us develop this material, teaching the curriculum, or attending a workshop, please [contact Eamonn Bell](mailto:eamonn.bell@durham.ac.uk).
+
+The material was originally developed by [Steven Gamble](https://github.com/stimhub) and taught as a one-day workshop on 21 August 2023.
 
 ## Contributing
 Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for contributing guidelines and details on how to get involved with this project.
@@ -16,7 +20,7 @@ To learn more about how this lesson site is built and how you can edit the pages
 ## Maintainer(s)
 Current Maintainers of this lesson are:
 
-* [stimhub](https://github.com/stimhub)
+* [Steven Gamble](https://github.com/stimhub)
 * [Eamonn Bell](eamonn.bell@durham.ac.uk)
 
 ## Contact
