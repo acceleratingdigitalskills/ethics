@@ -6,14 +6,15 @@ exercises: 8
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- What research using web data is taking place in music studies?
+- Where is research on music and the internet published?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Examine a range of ways web data is being used in music studies
+- Begin to consider the methods and ethics of different approaches
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -116,10 +117,10 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- There is a lot of published research using web data about music
+- There are several established methods for using web data in music research
+- Music and internet scholarship is interdisciplinary and can take many different forms
+- There is a range of potential benefits and challenges for such research
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
