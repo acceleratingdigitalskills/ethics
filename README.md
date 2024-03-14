@@ -6,7 +6,7 @@ The cirruculum consists of ten episodes of around 25 minutes each which, with re
 
 If you are interested in helping us develop this material, teaching the curriculum, or attending a workshop, please [contact Eamonn Bell](mailto:eamonn.bell@durham.ac.uk).
 
-The material was originally developed by [Steven Gamble](https://github.com/stimhub) and taught as a one-day workshop on 21 August 2023.
+The material was originally developed by [Steven Gamble](https://github.com/stimhub) and taught as a [one-day workshop on 21 August 2023](https://acceleratingdigitalskills.org/workshops.html).
 
 ## Contributing
 Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for contributing guidelines and details on how to get involved with this project.
