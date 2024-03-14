@@ -1,3 +1,5 @@
+The below is inherited from the Carpentries Instructor Training repository.
+
 _If this pull request addresses an open issue on the repository, please add 'Closes #NN' below, where NN is the issue number._
 
 
