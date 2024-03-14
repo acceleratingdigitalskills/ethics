@@ -190,7 +190,9 @@ There is increasing pressure on researchers to share collected data, make them w
 
 We're going to examine open access further in the [next lesson](access.md), but for now it is helpful to briefly reflect on the idea of sharing data.
 
-The call to make research data openly accessible is partly a response to the replication crisis in scientific research. Scholars in the arts and humanities may argue that it is less applicable for research that is not experimental or statistical in nature. However, there are still upsides to sharing datasets that are worth considering, such as being transparent about the information you have used in your work, and democratising access to data.
+The call to make research data openly accessible is partly a response to the replication crisis in scientific research. Scholars in the arts and humanities may argue that it is less applicable for research that is not experimental or statistical in nature. However, there are still upsides to sharing datasets that are worth considering, such as being transparent about the information you have used in your work, and democratising access to data. 
+
+Issues pertinent to music studies have been tackled in [a special issue of **Empirical Musicology Review** concerning open science](https://emusicology.org/index.php/EMR/issue/view/278).
 
 The downsides include risks of violating user privacy, user reidentification, misleading others through publishing outdated or inaccurate data, and potential backlash against the researcher.
 
