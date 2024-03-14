@@ -1,7 +1,7 @@
 ---
-title: "Workshop Introduction"
-teaching: 20
-exercises: 5
+title: "Welcome and Introduction"
+teaching: 10
+exercises: 15
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
