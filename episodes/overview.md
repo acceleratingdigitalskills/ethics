@@ -13,8 +13,8 @@ exercises: 8
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Examine a range of ways web data is being used in music studies
-- Begin to consider the methods and ethics of different approaches
+- Examine the methods and ethics of different approaches to web data in music studies
+- Consider concepts of techno-optimism and interdisciplinarity in research on music and the internet
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -117,10 +117,9 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- There is a lot of published research using web data about music
-- There are several established methods for using web data in music research
-- Music and internet scholarship is interdisciplinary and can take many different forms
-- There is a range of potential benefits and challenges for such research
+- There is a lot of published research using web data about music with a variety of established methods
+- Music and internet scholarship is interdisciplinary and can take many different forms, with a range of potential benefits and challenges
+- Researchers should be wary of the context of techno-optimism in designing research
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
